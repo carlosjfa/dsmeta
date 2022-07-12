@@ -15,3 +15,13 @@ body {
   background: linear-gradient(180deg, #102347 0%, #181818 100%);
   color: #fff;
 }
+
+#sales {
+  padding: 4rem 1.4rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 90rem;
+  margin: 0 auto;
+}

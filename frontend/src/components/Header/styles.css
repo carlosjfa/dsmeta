@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 22rem;
+}
+
+.header__logo {
+  margin-bottom: 1.4rem;
+  width: 23.5rem;
+}
+
+.header__app-name {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.header__dev-name {
+  font-weight: 300;
+  font-size: 1.4rem;
+}
