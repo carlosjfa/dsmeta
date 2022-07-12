@@ -1,21 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@300,400,700&display=swap");
 
 * {
-  font-family: "Roboto", sans-serif;
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html,
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+}
+
 body {
-  background-color: #000;
+  background: linear-gradient(180deg, #102347 0%, #181818 100%);
   color: #fff;
-}
-
-a,
-a:hover,
-:visited {
-  color: unset;
-  text-decoration: none;
 }
